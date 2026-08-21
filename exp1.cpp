@@ -27,7 +27,6 @@ void s_sort(vector<int>& a, int& n) {
     print_vec(a);
 }
 
-// ---------------- MERGE SORT ----------------
 
 void merge(vector<int>& a, int low, int mid, int high) {
     vector<int> temp;
@@ -79,7 +78,6 @@ void m_sort(vector<int>& a, int& n) {
     print_vec(a);
 }
 
-// ---------------- QUICK SORT ----------------
 
 int partition(vector<int>& a, int low, int high) {
     int pivot = a[high];
