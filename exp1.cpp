@@ -8,7 +8,7 @@ void print_vec(vector<int>& v) {
     }
     cout << endl;
 }
-
+//SELECTION
 void s_sort(vector<int>& a, int& n) {
     for (int i = 0; i < n - 1; i++) {
         int min = i;
@@ -27,7 +27,7 @@ void s_sort(vector<int>& a, int& n) {
     print_vec(a);
 }
 
-
+//MERGE
 void merge(vector<int>& a, int low, int mid, int high) {
     vector<int> temp;
 
@@ -78,7 +78,7 @@ void m_sort(vector<int>& a, int& n) {
     print_vec(a);
 }
 
-
+//QUICK SORT
 int partition(vector<int>& a, int low, int high) {
     int pivot = a[high];
 
